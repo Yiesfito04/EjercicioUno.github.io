@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../EJERCICIO 1/css/estilos.css" />
+    <title>Cifras COVID-19</title>
+  </head>
+  <body>
+    <h1>Registro diario COVID-19</h1>
+    <div class="card">
+        <div class="dpto">
+          <label>Seleccione el departamento:</label>
+          <select name="departamento" id="dpto">
+            <option value="antioquia">Antioquia</option>
+            <option value="atlantico">Atlántico</option>
+            <option value="bogota">Bogotá D.C.</option>
+            <option value="bolivar">Bolívar</option>
+            <option value="boyaca">Boyacá</option>
+            <option value="caldas">Caldas</option>
+            <option value="cauca">Cauca</option>
+            <option value="cesar">Cesar</option>
+            <option value="cundinamarca">Cundinamarca</option>
+            <option value="huila">Huila</option>
+            <option value="magdalena">Magdalena</option>
+            <option value="meta">Meta</option>
+            <option value="narino">Nariño</option>
+            <option value="nte santander">Norte de Santander</option>
+            <option value="quindio">Quindio</option>
+            <option value="risaralda">Risaralda</option>
+            <option value="santander">Santander</option>
+            <option value="tolima">Tolima</option>
+            <option value="vll cauca">Valle del Cauca</option>
+            <option value="casanare">Casanare</option>
+            <option value="san andres">San Andrés</option>
+          </select>
+        </div>
+        <div>
+          <label>Genero:</label>
+          <select name="genero" id="genero">
+            <option value="m">Masculino</option>
+            <option value="f">Femenino</option>
+          </select>
+        </div>
+        <div>
+          <label>Edad:</label>
+          <input type="number" name="edad" id="edad" />
+        </div>
+        <div>
+          <label>Causa:</label>
+          <select name="causa" id="causa">
+            <option value="importado">Importado (Viaje)</option>
+            <option value="relacionado">Relacionado</option>
+            <option value="estudio">En Estudio</option>
+          </select>
+        </div>
+        <div>
+          <label>Manejo:</label>
+          <select name="manejo" id="manejo">
+            <option value="casa">Casa</option>
+            <option value="hospital">Hospital</option>
+            <option value="uci">UCI</option>
+          </select>
+        </div>
+        <div>
+            <label>Fecha:</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <br />
+        <hr />
+
+        <h1>Registro Estado</h1>
+        <div class="estado">
+            <label>Seleccione estado:</label>
+            <select name="estado" id="estado">
+              <option value="recuperado">Recuperado</option>
+              <option value="deceso">Deceso</option>
+            </select>
+            <div>
+              <label>Ciudad:</label>
+              <input type="text" name="ciudad" id="ciudad" />
+            </div>
+          </div>
+          <button type="submit">Registrar</button>
+      <div class="button">
+        <a href="reportes.html">Ver reportes</a>
+    </div>
+    </div>
+  </body>
+</html>
